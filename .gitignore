@@ -1,0 +1,12 @@
+*
+
+!*/
+!.gitignore
+
+
+!local/
+!local/**
+!composer.json
+!composer.lock
+!phpunit.xml
+!README.md

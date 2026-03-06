@@ -1,0 +1,16 @@
+{
+    "name": "provokative/look",
+    "autoload": {
+        "psr-4": {
+            "ProvokativeLook\\": "local/"
+        }
+    },
+    "authors": [
+        {
+            "name": "skip"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "10.5.20"
+    }
+}
