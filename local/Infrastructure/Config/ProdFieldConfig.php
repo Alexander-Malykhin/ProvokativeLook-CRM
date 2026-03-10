@@ -12,6 +12,11 @@ final class ProdFieldConfig implements FieldConfigInterface
             'PRODUCT_COUNT' => 'UF_CRM_1772091545',
             'PRODUCT_LIST' => 'UF_CRM_1772091597',
             'TYPE_PAY' => 'UF_CRM_1772005423370',
+
+            'ASSEMBLED' => 'UF_CRM_1773134026',
+            'PACKED' => 'UF_CRM_1773134047',
+            'SHIPPED' => 'UF_CRM_1773134090',
+            'DELIVERED' => 'UF_CRM_1773134071',
         ];
     }
 }

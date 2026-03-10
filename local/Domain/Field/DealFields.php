@@ -15,6 +15,18 @@ final class DealFields
     // Тип платежа (список)
     public const TYPE_PAY = 'TYPE_PAY';
 
+    // Собран на складе (да/нет)
+    public const ASSEMBLED = 'ASSEMBLED';
+
+    // Упакован (да/нет)
+    public const PACKED = 'PACKED';
+
+    // Отправлен (да/нет)
+    public const SHIPPED = 'SHIPPED';
+
+    // Доставлен (да/нет)
+    public const DELIVERED = 'DELIVERED';
+
     public static function all(): array
     {
         return [
@@ -22,6 +34,10 @@ final class DealFields
             self::PRODUCT_COUNT,
             self::PRODUCT_LIST,
             self::TYPE_PAY,
+            self::ASSEMBLED,
+            self::PACKED,
+            self::SHIPPED,
+            self::DELIVERED,
         ];
     }
 }
